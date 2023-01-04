@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>TODO LIST</p>
+    <form_input />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import form_input from './components/form_input.vue'
 export default {
-  name: 'App',
+  name: 'App', 
   components: {
-    HelloWorld
+    form_input
+  },
+  data(){
+    return{
+      
+    }
   }
 }
 </script>
